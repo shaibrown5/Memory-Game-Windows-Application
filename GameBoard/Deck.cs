@@ -22,7 +22,7 @@ namespace GameDeck
             this.r_CardList = new List<Card>(i_NumberOfCards);
 
             makeCards(i_NumberOfCards);
-            //shuffleCards();
+            shuffleCards();
         }
 
         /*
